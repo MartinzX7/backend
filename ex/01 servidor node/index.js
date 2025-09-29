@@ -34,8 +34,8 @@ app.get('/produtos/:id', (req, res) => {
 });
 
 app.get(`/total/id_produto/:prc/:qntd`, (req,res) =>{
-    const prc = Number(req.params.prc)
-    const qntd = Number(req.params.qntd)
+    const prc = parseFloat(req.params.prc)
+    const qntd = parseFloat(req.params.qntd)
     const id_produto = Number(req.params.id_produto)
     
     const resultado = prc + qntd;
