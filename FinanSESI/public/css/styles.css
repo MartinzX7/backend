@@ -1,0 +1,165 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    height: 100dvh;
+    display: flex;
+    flex-direction: column;
+}
+
+header{
+    background-color: #3499ff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #f1f1f1;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+}
+    
+
+.logo {
+    font-size: 24px;
+    gap: 10px;
+    display: flex;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    
+}
+
+header > nav{
+    display: flex;
+    gap: 10px;
+}
+
+header nav a {
+    text-decoration: none;
+    color: #ffffff;
+    margin-right: 10px;
+    transition: color  0.3s ease;
+    font-weight: bold;
+}
+header nav a:hover {
+    color: #1573f8;
+}
+
+main {
+    flex: 1;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    border-radius: 10px;
+
+}
+
+footer {
+    background-color: #3499ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    box-shadow: 0 -4px 4px #aaa;
+
+}
+
+.titulo {
+    text-align: center;
+    color: #3499ff;
+    text-shadow: #aaa 1px 1px 1px;
+    
+}
+
+form{
+    max-width: 400px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+
+input{
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button{
+    background-color: #3499ff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease
+}
+
+button:hover {
+    background-color: #1573f8;
+    transition: 0.3s ease;
+}
+
+.resultado{
+    margin-top: 20px;
+    text-align: center;
+}
+
+.juros{
+    display: flex;
+    margin-top: 20px;
+    text-align: center;
+    gap: 10px;
+}
+.simples{
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    border-radius: 10px;
+}
+.comp{
+    margin: 20px;
+    padding: 10px;
+    border: 1x solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    border-radius: 10px;
+}
+
+.simples a {
+    display: block;
+    text-decoration: none;
+    color: #1573f8;
+    text-shadow: #aaa 1px 1px 1px;
+}
+
+.comp a {
+    text-decoration: none;
+    color: #1573f8;
+    text-shadow: #aaa 1px 1px 1px;
+    display: block;
+}
+
+.simples img{
+    width: 100px;
+    height: 100px;
+}
+
+.comp img{
+    width: 100px;
+    height: 100px;
+}
+
+
+.mid{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
